@@ -36,3 +36,6 @@ $orderParams = [
 $createOrder = $Remonline->call($method, $orderParams);
 ```
 
+### Ограничения
+
+Для всех запросов действует ограничение - не более 8 запросов в секунду.

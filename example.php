@@ -35,4 +35,4 @@ $orderParams = [
 ];
 
 $createOrder = $Remonline->call('order/', $orderParams); // Создание заказа
-print_r($createOrder);
+Debug($createOrder);git 

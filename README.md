@@ -1,6 +1,6 @@
 # Remonline PHP SDK
 
-Небольшой PHP-SDK для работы с API сервиса [remonline.ru](remonline.ru).
+Небольшой PHP-SDK для работы с API сервиса <https://remonline.ru>.
 
 [Документация](https://remonline.ru/docs/api)
 

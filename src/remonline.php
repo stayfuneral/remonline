@@ -36,11 +36,11 @@ class Remonline {
 
     private function callCurl($url, $params = [], $type, $httpBuildQuery = false) {
         $ch = curl_init();
-        curl_setopt_array($ch, [
-            
+        curl_setopt_array($ch, [            
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_REFERER => ''
         ]);
+
         if(!empty($params)) {            
             switch($httpBuildQuery) {
                 case true:
@@ -51,6 +51,7 @@ class Remonline {
                     break;
             }            
         }
+
         switch($type) {
             case 'get':
                 curl_setopt($ch, CURLOPT_URL, $url.'?'.$QueryParams);
@@ -66,8 +67,10 @@ class Remonline {
                 curl_setopt($ch, CURLOPT_POSTFIELDS, $QueryParams);
                 break;
         }
+
         $request = curl_exec($ch);
         $result = json_decode($request);
+
         return $result;
     }
 
@@ -86,7 +89,7 @@ class Remonline {
     }
 
     private function checkToken() {
-        if(!isset($this->tokenInfo['token']) || time() - $this->tokenInfo['ts'] >= 10*60) {
+        if(!isset($this->tokenInfo['token']) || time() - $this->tokenInfo['ts'] >= 600) {
             $this->getToken();
         }
     }

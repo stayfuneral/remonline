@@ -4,6 +4,18 @@
 
 [Документация](https://remonline.ru/docs/api)
 
+### Установка
+
+Добавьте в composer следующий код:
+
+```json
+"require": {
+    "rgonyukov/remonline-sdk": "dev-master"
+}
+```
+
+После используйте команды `composer install` или `composer update`
+
 ### Инициализация объекта
 
 Для создания объекта класса ремонлайн используется стандартная инициализация с передачей API-ключа:

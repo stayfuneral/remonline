@@ -1,0 +1,14 @@
+{
+    "name": "rgonyukov/remonline-sdk",
+    "description": "PHP-SDK \u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000 \u0000 API \u0000\u0000\u0000\u0000\u0000\u0000\u0000 https://remonline.ru",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Gonyukov",
+            "email": "roman@bx24-store.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

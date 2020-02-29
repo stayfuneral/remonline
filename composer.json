@@ -10,5 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+		"php": ">=7.1.0"
+	},
+	"autoload": {
+		"classmap": ["src"]
+	}
 }

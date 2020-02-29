@@ -1,6 +1,6 @@
 {
     "name": "rgonyukov/remonline-sdk",
-    "description": "PHP-SDK \u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000 \u0000 API \u0000\u0000\u0000\u0000\u0000\u0000\u0000 https://remonline.ru",
+    "description": "Small PHP SDK Library for work with API https://remonline.ru",
     "type": "library",
     "license": "MIT",
     "authors": [

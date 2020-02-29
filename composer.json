@@ -1,0 +1,19 @@
+{
+    "name": "rgonyukov/remonline-sdk",
+    "description": "Small PHP SDK Library for work with API https://remonline.ru",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Gonyukov",
+            "email": "roman@bx24-store.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.1.0"
+	},
+	"autoload": {
+		"classmap": ["src"]
+	}
+}
